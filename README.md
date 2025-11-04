@@ -20,7 +20,7 @@ Train PyTorch FasterRCNN models easily on any custom dataset. Choose between off
 
 * **October 6 2025:** Support for both Pascal VOC and YOLO text file annotation type during training. Check [custom training section](#Train-on-Custom-Dataset)
 
-* **Septemver 28 2024:** SAHI image inference for all pretrained Torchvision Faster RCNN models integrated. [Find the script here](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/blob/main/sahi_inference.py).
+* **Septemver 28 2025:** SAHI image inference for all pretrained Torchvision Faster RCNN models integrated. [Find the script here](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/blob/main/sahi_inference.py).
 
 * Filter classes to visualize during inference using the `--classes` command line argument with space separated class indices from the dataset YAML file. 
 
@@ -420,4 +420,5 @@ python train.py --model fasterrcnn_resnet50_fpn_v2 --data data_configs/coco.yaml
 * [Wheat Detection using Faster RCNN and PyTorch](https://debuggercafe.com/wheat-detection-using-faster-rcnn-and-pytorch/)
 * [Plant Disease Detection using the PlantDoc Dataset and PyTorch Faster RCNN](https://debuggercafe.com/plant-disease-detection-using-plantdoc/)
 * [Small Scale Traffic Light Detection using PyTorch](https://debuggercafe.com/small-scale-traffic-light-detection/)
+
 
